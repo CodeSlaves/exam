@@ -27,11 +27,11 @@
 
 
 # 版本(tag)操作相关命令
-+ 查看版本：$ git tag
-+ 创建版本：$ git tag [name]
-+ 删除版本：$ git tag -d [name]
-+ 查看远程版本：$ git tag -r
- +创建远程版本(本地版本push到远程)：$ git push origin [name]
-+ 删除远程版本：$ git push origin :refs/tags/[name]
+1 查看版本：$ git tag
+2 创建版本：$ git tag [name]
+3 删除版本：$ git tag -d [name]
+4 查看远程版本：$ git tag -r
+5创建远程版本(本地版本push到远程)：$ git push origin [name]
+6 删除远程版本：$ git push origin :refs/tags/[name]
 
 
