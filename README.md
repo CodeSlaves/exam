@@ -25,3 +25,13 @@
 - 拉取远程仓库：$ git pull [remoteName] [localBranchName]
 - 推送远程仓库：$ git push [remoteName] [localBranchName]
 
+
+# 版本(tag)操作相关命令
++ 查看版本：$ git tag
++ 创建版本：$ git tag [name]
++ 删除版本：$ git tag -d [name]
++ 查看远程版本：$ git tag -r
+ +创建远程版本(本地版本push到远程)：$ git push origin [name]
++ 删除远程版本：$ git push origin :refs/tags/[name]
+
+
